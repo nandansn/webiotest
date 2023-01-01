@@ -1,0 +1,46 @@
+{
+  "name": "webiotest",
+  "version": "1.0.0",
+  "description": "poc for webdriver io",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandansn/webiotest.git"
+  },
+  "keywords": [
+    "nodejs",
+    "webdriverio",
+    "mocha",
+    "chai",
+    "saucelab",
+    "circleci",
+    "mochawesome"
+  ],
+  "author": "nandakumar rangasamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandansn/webiotest/issues"
+  },
+  "homepage": "https://github.com/nandansn/webiotest#readme",
+  "dependencies": {
+    "expect": "^29.3.1",
+    "expect-webdriverio": "^4.0.1",
+    "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "@wdio/allure-reporter": "^8.0.13",
+    "@wdio/cli": "^8.0.13",
+    "@wdio/local-runner": "^8.0.13",
+    "@wdio/mocha-framework": "^8.0.13",
+    "@wdio/spec-reporter": "^8.0.13",
+    "chromedriver": "^108.0.0",
+    "wdio-chromedriver-service": "^8.0.1"
+  }
+}
